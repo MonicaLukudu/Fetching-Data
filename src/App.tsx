@@ -1,8 +1,12 @@
+import './App.css';
+import FetchPost from './FetchPost';
+
 export default function App(){
   return(
 
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <FetchPost/>
+    </>
+    
   )
 }
